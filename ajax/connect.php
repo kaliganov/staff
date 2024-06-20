@@ -3,8 +3,8 @@
 /* Connection parameters */
 	$ldap_host = "0.0.0.0"; # domain controller or ip-address
 	$ldap_port = "389"; # port for connection
-	$ldap_user ="adadmin@mega-f.ru"; # AD-user
-	$ldap_pass = "FbtoJgtRfnYsf666"; # AD-user's password
+	$ldap_user =""; # AD-user
+	$ldap_pass = ""; # AD-user's password
    
 /* Open connection */
 	$connect = ldap_connect($ldap_host, $ldap_port);
