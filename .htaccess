@@ -1,0 +1,11 @@
+
+#RewriteEngine On
+RewriteCond %{HTTP_HOST} ^staff\.mega-f\.ru
+RewriteRule ^(.*)$ #http://staff.tfnopt.ru/$1 [R=301,L]
+
+
+
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://staff.tfnopt.ru/$1 [L,R=301]
